@@ -57,20 +57,21 @@
             
         </div>
         <div class=" gap-4">
-            <button id="btn-all" class=" btn btn-primary">All</button>
-            <button id="btn-interview" class=" btn btn-soft mx-3">Interview</button>
-            <button id="btn-rejected" class=" btn btn-soft">Rejected</button>
+            <button onclick="togglestyle('btn-all')" id="btn-all" class=" btn btn-soft ">All</button>
+            <button onclick="togglestyle('btn-interview')" id="btn-interview" class=" btn btn-soft mx-3">Interview</button>
+            <button onclick="togglestyle('btn-rejected')" id="btn-rejected" class=" btn btn-soft">Rejected</button>
         </div>
+
 
         <!-- Card Section -->
          <section id="all-cards" class="my-5 space-y-4">
             <!-- Card-01 -->
             <div class="card   p-5 grid grid-cols-6 mb-2 bg-white">
                 <div class="left col-span-5">
-                    <h3 class="font-bold ">Mobile First Corp</h3>
-                    <p class="text-neutral/50">React Native Developer</p>
+                    <h3 class="heading font-bold ">Mobile First Corp</h3>
+                    <p class="job-name text-neutral/50">React Native Developer</p>
                     <br>
-                    <p class="text-neutral/50">Remote • Full-time • $130,000 - $175,000</p>
+                    <p class="salary text-neutral/50">Remote • Full-time • $130,000 - $175,000</p>
                     <br>
                     <button id="btn-not-applied" class="btn btn-soft">NOT APPLIED</button>
                     <br>
@@ -251,6 +252,7 @@
      
 
     <!-- JavaScript -->
-     <script src="JavaScript.js/script.js"></script>
+      <script src="JavaScript.js/script-01.js"></script>
+  
 </body>
 </html>
